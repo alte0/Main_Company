@@ -12496,21 +12496,27 @@ h2 {
         line-height: 1.25rem;
         border: 0.0625rem solid rgba(83, 86, 90, 0.2);
         border-radius: 1.25rem;
-        margin-bottom: 0;
         padding-top: 0.21875rem;
         padding-bottom: 0.21875rem;
         padding-left: 0.9375rem;
         display: inline-block;
         width: 100%;
         position: relative;
-        margin-bottom: 1.875rem; } }
+        margin-bottom: 1.875rem;
+        background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' version='1.1' width='32' height='24' viewBox='0 0 32 24'><polygon points='0,0 32,0 16,24' style='fill: rgb%28138, 138, 138%29'></polygon></svg>");
+        background-origin: content-box;
+        background-position: right -0.5rem center;
+        background-repeat: no-repeat;
+        background-size: 9px 6px;
+        padding-right: 1.25rem; } }
     @media screen and (max-width: 79.9375em) {
       .main-content-menu-desktop {
         display: none; }
         .main-content-menu-desktop.js-open {
           display: block;
+          border: 1px solid darkgray;
           position: absolute;
-          top: calc(100% + 2px);
+          top: calc(100% + 1px);
           left: 0;
           right: 0;
           background-color: #fff;
