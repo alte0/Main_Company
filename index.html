@@ -16,13 +16,15 @@
         <div class="grid-x grid-padding-x">
           <div class="cell shrink"><a href="#" title=""><img src="./images/logo.png" alt="logo"></a></div>
           <div class="auto cell align-self-middle show-for-xlarge">
-            <ul class="menu-base">
-              <li class="menu-base__item"><a class="menu-base__link" href="#">Раздел №1</a></li>
-              <li class="menu-base__item"><a class="menu-base__link" href="#">Раздел №2</a></li>
-              <li class="menu-base__item"><a class="menu-base__link" href="#">Раздел №3</a></li>
-              <li class="menu-base__item"><a class="menu-base__link" href="#">Раздел №4</a></li>
-              <li class="menu-base__item"><a class="menu-base__link" href="#">Раздел №5</a></li>
-            </ul>
+            <nav>
+              <ul class="menu-base">
+                <li class="menu-base__item"><a class="menu-base__link" href="#">Раздел №1</a></li>
+                <li class="menu-base__item"><a class="menu-base__link" href="#">Раздел №2</a></li>
+                <li class="menu-base__item"><a class="menu-base__link" href="#">Раздел №3</a></li>
+                <li class="menu-base__item"><a class="menu-base__link" href="#">Раздел №4</a></li>
+                <li class="menu-base__item"><a class="menu-base__link" href="#">Раздел №5</a></li>
+              </ul>
+            </nav>
           </div>
           <div class="shrink cell align-self-middle show-for-xlarge">
             <div class="grid-x grid-padding-x align-right">
@@ -80,25 +82,21 @@
       <div class="grid-container">
         <div class="grid-x grid-padding-x">
           <div class="cell main-content__left">
-            <ul class="main-content-menu-desktop">
-              <li class="main-content-menu-desktop__item"><a class="main-content-menu-desktop__link" href="#">Документы</a></li>
-              <li class="main-content-menu-desktop__item"><a class="main-content-menu-desktop__link" href="#">План</a></li>
-              <li class="main-content-menu-desktop__item"><a class="main-content-menu-desktop__link" href="#">Оплата</a></li>
-              <li class="main-content-menu-desktop__item"><a class="main-content-menu-desktop__link" href="#">Стадии</a></li>
-              <li class="main-content-menu-desktop__item"><a class="main-content-menu-desktop__link" href="#">Online</a></li>
-              <li class="main-content-menu-desktop__item"><a class="main-content-menu-desktop__link" href="#">Инструкция</a></li>
-              <li class="main-content-menu-desktop__item main-content-menu-desktop__item_active"><a class="main-content-menu-desktop__link" href="#">
-                   Уведомления<span class="main-content-menu-desktop__num">6</span></a></li>
-            </ul>
-            <select class="main-content-menu-mobile" name="">
-              <option value="">Документы</option>
-              <option value="">План</option>
-              <option value="">Оплата</option>
-              <option value="">Стадии</option>
-              <option value="">Online</option>
-              <option value="">Инструкция</option>
-              <option class="main-content-menu-mobile__message" value="" selected data-message="6">Уведомления</option>
-            </select>
+            <div class="main-content-menu-desktop-wrap">
+              <ul class="main-content-menu-mob">
+                <li class="main-content-menu-mob__item">Уведомления<span class="main-content-menu-mob__num">6</span></li>
+              </ul>
+              <ul class="main-content-menu-desktop">
+                <li class="main-content-menu-desktop__item"><a class="main-content-menu-desktop__link" href="#">Документы</a></li>
+                <li class="main-content-menu-desktop__item"><a class="main-content-menu-desktop__link" href="#">План</a></li>
+                <li class="main-content-menu-desktop__item"><a class="main-content-menu-desktop__link" href="#">Оплата</a></li>
+                <li class="main-content-menu-desktop__item"><a class="main-content-menu-desktop__link" href="#">Стадии</a></li>
+                <li class="main-content-menu-desktop__item"><a class="main-content-menu-desktop__link" href="#">Online</a></li>
+                <li class="main-content-menu-desktop__item"><a class="main-content-menu-desktop__link" href="#">Инструкция</a></li>
+                <li class="main-content-menu-desktop__item main-content-menu-desktop__item_active"><a class="main-content-menu-desktop__link" href="#">
+                     Уведомления<span class="main-content-menu-desktop__num">6</span></a></li>
+              </ul>
+            </div>
             <div class="grid-x grid-padding-x addres-lists">
               <div class="cell medium-12 xlarge-24 addres-lists__border">
                 <h3 class="addres-lists__title">Адрес 123</h3>
